@@ -4,7 +4,7 @@
   "description": "",
   "main": "server/server.js",
   "engines": {
-    "node": "16.4.2"
+    "node": "14.7.0"
   },
   "scripts": {
     "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start --prefix client\"",
